@@ -1,16 +1,22 @@
+import React from 'react';
 import './App.css';
-import Contact from './Contact.js';
-import {BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Home from './Home.js';
-import Header from './Header.js'
+import Navbar from './Navbar.js';
+
+
+
 function App() {
   return (
     <Router>
-      <Header />
+      <Navbar />
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/contact" component={Contact} />
+          {/*}
+          <Route path="contact" element={<Contact />} />
+          <Route path="resume" element = {<Resume />} />
+          */}
         </Routes>
       </div>
     </Router>

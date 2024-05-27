@@ -5,6 +5,10 @@ li {
 h1{
   text-align: center;
 }
+.icon{
+  height:10vh;
+  width:10vh;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -15,16 +19,27 @@ h1{
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+html {
+  scroll-behavior: smooth;
+  background-color: black;
+  color: white;
+}
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: 'Helvetica', sans-serif
+}
+
+.App-header a{
+  text-decoration: none;
+  color: white;
+  padding: 1vh;
 }
 
 .App-link {

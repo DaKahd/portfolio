@@ -1,10 +1,25 @@
 import React from 'react'
-
+import "./Home.css"
+import Resume from './Resume.js';
+import Contact from './Contact.js';
+import Section from './Section.js';
 function Home(){
     return (
-        <div>
-            <h1>David Kahdian</h1>
-            <h2>Welcome to my portfolio website!</h2>
+        <div id="main">
+            <div id ="s1">
+                <Section id = "welcome" delay={100} content={
+                    <div>
+                      <h1>Welcome!</h1>
+                    </div>
+                }/>
+                <Section id = "image" delay = {600} content={
+                    <div>
+                        <img src = "./profile.jpg"></img>
+                    </div>
+                } />
+            </div>
+            <div id="s2"></div>
+            <div id="s3"></div>            
         </div>
     );
 }
