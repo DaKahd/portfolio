@@ -1,16 +1,19 @@
-.link-container{
+.link-container {
     position: relative;
-}
-.hover-content{
-    opacity:0;
-    visibility:hidden;
-    position:absolute;
-    top:100%;
-    left:0;
-    padding:10px;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
-}
-.hover-content.show{
-    opacity:1;
-    visibility:visible;
-}
+    display: inline-block;
+    padding-right:1vmin;
+  }
+  
+  .hover-content {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position below the link */
+    left: 0;
+    background-color: black;
+    padding: 10px; /* Customize as needed */
+  }
+  
+  .hover-content.show {
+    display: block;
+  }
+  

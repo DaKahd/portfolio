@@ -1,7 +1,12 @@
 import React from 'react';
-import Section from './Section.js'
-import profile from './images/profile.jpg';
-import './Home.css'
+import './Home.css';
+/*
+import Resume from './Resume.js';
+import Contact from './Contact.js';
+import Section from './Section.js';
+import Experience from './Experience.js'
+import Schools from './Schools.js'
+*/
 import Bayha from './images/bayha.jpg'
 import Crispr from './images/crispr.jpg'
 import Mathnasium from './images/mathnasium.jpg'
@@ -194,30 +199,3 @@ export function Scores(){
     );
 }
 
-function Home() {
-  return (
-    <div id="main" style={{display:"flex"}}>
-      <div>
-        <Section id="welcome" delay={100} content={
-          <div>
-            <h1>Welcome to my portfolio website!</h1>
-          </div>
-        } />
-        <Section id="profile" delay={600} content={
-          <div class="side-by-side">
-            <h2 style={{maxWidth:"40vw"}}>I am David Kahdian, a UCLA-bound Engineering student<br/><br/>Currently searching for tutoring and internship positions</h2>
-            <img style={{height:"60vh", marginLeft:"20vw"}} src={profile} alt="me" />
-          </div>
-        } />
-      </div>
-      <Section id="schools" delay= {200} content={<Schools />}/>
-      <Section id="mathnasium" delay={0} content={<Experience /> }/>
-      <Section id="internships" delay={500} content={<Internships />}/>
-      <Section id="projects" delay= {200} content={<Projects />}/>
-      <Section id="languages" delay= {500} content = {<Languages />}/>
-      <Section id="coding" delay= {500} content = {<Coding />}/>
-    </div>
-  );
-}
-
-export default Home;

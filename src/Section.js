@@ -4,7 +4,7 @@ import './Section.css';
 
 function Section({ id, content, delay }) {
   const { ref, inView } = useInView({
-    threshold: 0.1,
+    threshold: 0.1, 
     triggerOnce: true,
   });
 
@@ -12,8 +12,8 @@ function Section({ id, content, delay }) {
     <div
       id={id}
       ref={ref}
-      className={`section ${inView ? 'visible' : ''}`}
-      style={{ transitionDelay: inView ? `${delay}ms` : '0ms' }}
+      className={`section ${inView ? 'visible' : 'invisible'}`}
+      style={{ transitionDelay: `${delay}ms` }}
     >
       {content}
     </div>

@@ -2,21 +2,18 @@ import React from 'react';
 import './App.css';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Home from './Home.js';
-import Navbar from './Navbar.js';
-
+import {Header} from './Navigation.js';
+import Achievements from './Achievements.js';
 
 
 function App() {
   return (
     <Router>
-      <Navbar />
+      <Header />
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
-          {/*}
-          <Route path="contact" element={<Contact />} />
-          <Route path="resume" element = {<Resume />} />
-          */}
+          <Route path="/Achievements" element={<Achievements />}/>
         </Routes>
       </div>
     </Router>
