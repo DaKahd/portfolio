@@ -4,6 +4,7 @@ import './Home.css';
 import Acorn from './images/acorn.jpg';
 import Cap from './images/cap.jpg'
 import Coat from './images/coatofarms.jpg';
+import Merit from './images/nationalmerit.png';
 export function Scores(){
     return (<div>
         <h1>Test Scores</h1>
@@ -60,12 +61,22 @@ export function Extracurricular(){
 export function Scholarships(){
     return (<div>
         <h1>Scholarships</h1>
+        <div className="side-by-side">
+            <ul>
+                <li>National Merit Scholarship: L3Harris Scholarship</li>
+                <li>Crescenta Valley High School PTSA Scholarship</li>
+                <li>Monte Vista Elementary PTA Scholarship</li>
+                <li>Committee for Armenian Students in Public Schools: Highest GPA</li>
+                
+            </ul>
+            <img src={Merit} alt="national merit logo" style={{maxWiddth:"20vw",paddingLeft:"10vw"}}/>
+        </div>
     </div>);
 }
 
 export default function Achievements(){
     return (<div style={{paddingTop:"10vh"}}>
-        <Section id="scores" delay={100} content={ <Scores />}/>
+        <Section id="scores" delay={100} content={ <Scores />} />
         <Section id="academic" delay={1000} content={ <Academic />}/>
         <Section id="extracurricular" delay={500} content={ <Extracurricular />}/>
         <Section id="scholarships" delay={500} content={<Scholarships />}/>

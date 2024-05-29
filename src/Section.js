@@ -15,6 +15,7 @@ function Section({ id, content, delay }) {
       className={`section ${inView ? 'visible' : 'invisible'}`}
       style={{ transitionDelay: `${delay}ms` }}
     >
+      <div style={{height:"10vh"}}></div>
       {content}
     </div>
   );
