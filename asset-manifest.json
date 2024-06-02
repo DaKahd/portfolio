@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.28111ca8.css",
+    "main.js": "/portfolio/static/js/main.dd8cb1ea.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/profile.jpg": "/portfolio/static/media/profile.c22729f8f1ad49ef906b.jpg",
+    "static/media/mathnasium.jpg": "/portfolio/static/media/mathnasium.db4386b6e323b579a8bb.jpg",
+    "static/media/react.png": "/portfolio/static/media/react.81ed438b18e24116794d.png",
+    "static/media/python.png": "/portfolio/static/media/python.dea924d737bb84eb9ce3.png",
+    "static/media/htmljscss.png": "/portfolio/static/media/htmljscss.6c082aa36fdec48b7065.png",
+    "static/media/sp.jpg": "/portfolio/static/media/sp.ecd000721af13a2f7e87.jpg",
+    "static/media/cong.jpg": "/portfolio/static/media/cong.0c172fd3e39876bb746e.jpg",
+    "static/media/nationalmerit.png": "/portfolio/static/media/nationalmerit.fd20d98d97765cbd7b86.png",
+    "static/media/cv.jpg": "/portfolio/static/media/cv.2ff7b919b18f8742d46f.jpg",
+    "static/media/usa.jpg": "/portfolio/static/media/usa.699c2c6b0a4d5fdbac06.jpg",
+    "static/media/cap.jpg": "/portfolio/static/media/cap.570bf78ff3b75aae4d63.jpg",
+    "static/media/crispr.jpg": "/portfolio/static/media/crispr.de3d2b21ddad6b095906.jpg",
+    "static/media/acorn.jpg": "/portfolio/static/media/acorn.7e35d06625f5f728fecb.jpg",
+    "static/media/ucla.jpg": "/portfolio/static/media/ucla.c5dafff794a3f066dd93.jpg",
+    "static/media/java.png": "/portfolio/static/media/java.f5dd86c3ef6ef3f85acf.png",
+    "static/media/coatofarms.jpg": "/portfolio/static/media/coatofarms.5746addcce9e07da7f32.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.28111ca8.css.map": "/portfolio/static/css/main.28111ca8.css.map",
+    "main.dd8cb1ea.js.map": "/portfolio/static/js/main.dd8cb1ea.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28111ca8.css",
+    "static/js/main.dd8cb1ea.js"
+  ]
+}
