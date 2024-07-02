@@ -14,8 +14,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
   margin-bottom: 10vh;
+  margin:3vw;
 
 }
 
@@ -80,7 +80,14 @@
   a:hover {
     text-decoration: underline;
   }
+
 }
 a{
   color: inherit;
+  font-style: italic;
+}
+
+.text{
+  padding:5vw;
+  text-align:center;
 }

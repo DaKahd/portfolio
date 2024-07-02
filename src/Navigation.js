@@ -21,6 +21,7 @@ export function Header() {
                     <MyLink className="nav-link" href="/#scholarships" text="Scholarships" /><br />
                 </div>
             }/>
+            <MyLink className="nav-link" href="/#tutoring" text={<h1>Tutoring</h1>}/>
         </div>
     );
 }
