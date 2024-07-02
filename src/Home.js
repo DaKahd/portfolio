@@ -16,6 +16,13 @@ import HtmlJsCss from './images/htmljscss.png';
 import Java from './images/java.png';
 import ReactLogo from './images/react.png';
 import Python from './images/python.png';
+import Physics from './images/physics.jpg';
+import Calculus from './images/calculus.png';
+import SAT from './images/SAT.png';
+import AP from './images/Ap.png';
+import Language from './images/language.png';
+import History from './images/history.jpg';
+import NumberCounter from './NumberCounter';
 
 export function Experience() {
     return (
@@ -177,48 +184,74 @@ export function Coding() {
         </div>
     );
 }
-
-export function Scores() {
-    return (
-        <div>
-            <h1>Test scores</h1>
-            <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'flex-start'}}>
-                <div style={{marginRight: '20vw', maxWidth: '30vw'}}>
-                    <h2>SAT</h2>
-                    <ul>
-                        <li>Math: 800</li>
-                        <li>English 780</li>
-                    </ul>
+export function Sat(){
+    return (<div>
+        <img src = {SAT} alt="SAT logo"/>
+        <div className="side-by-side">
+            <div className="left">
+                    <h3>Math</h3>
+                    <p style={{textAlign:"center"}}><NumberCounter targetNumber={800} duration = {2} />/800</p>
                 </div>
-                <div style={{marginLeft: '20vw'}}>
-                    <h2>AP</h2>
-                    <ul></ul>
+                <div className="right">
+                    <h3>English</h3>
+                    <p style={{textAlign:"center"}}><NumberCounter targetNumber={780} duration = {2} />/800</p>
                 </div>
             </div>
+    </div>)
+}
+export function Ap(){
+    return (<div>
+        <div className="side-by-side">
+            <div className="flag">
+                <p style={{textAlign:'center'}}><NumberCounter targetNumber={5} duration = {2} />/5</p>
+                <img src = {Physics} alt = "AP physics logo"/>
+                <h3>AP Physics 1 and 2</h3>
+            </div>
+            <div className="flag">
+                <p style={{textAlign:'center'}}><NumberCounter targetNumber={5} duration = {2} />/5</p>
+                    <img src = {Calculus} alt = "AP Calculus logo"/>
+                    <h3>AP Calculus AB/BC</h3>
+
+            </div>
+            <div className="flag">
+                <p style={{textAlign:'center'}}><NumberCounter targetNumber={5} duration = {2} />/5</p>
+                    <img src = {Language} alt = "AP Language logo"/>
+                    <h3>AP English/Spanish</h3>
+
+            </div>
+            <div className="flag">
+                <p style={{textAlign:'center'}}><NumberCounter targetNumber={5} duration = {2} />/5</p>
+                    <img src = {History} alt = "AP History logo"/>
+                    <h3>AP US/European/Art</h3>
+             </div>
+           
         </div>
-    );
+    </div>)
 }
 
 function Home() {
     return (
         <div id="main">
-            <Section id="welcome" delay={100} content={
+            <Section id="profile" delay={600} content={
                 <div>
                     <h1>Welcome to my portfolio website!</h1>
+
+                    <div className="side-by-side">
+                        <h2 className = "intro" class="left">I am David Kahdian, a UCLA-bound Engineering student.<br/><br/>Currently searching for <a href="#contact"> tutoring</a> and <a href="#internships">internship</a>  positions</h2>
+                        <img style={{height: '60vh', width:'auto'}} class="right" src={profile} alt="me"/>
+                    </div>
                 </div>
             }/>
-            <Section id="profile" delay={600} content={
-                <div className="side-by-side">
-                    <h2 className = "intro" class="left">I am David Kahdian, a UCLA-bound Engineering student<br/><br/>Currently searching for tutoring and internship positions</h2>
-                    <img style={{height: '60vh', width:'auto'}} class="right" src={profile} alt="me"/>
-                </div>
-            }/>
+            <Section id="scores" delay={500} content={ <Sat />} />
+            <Section id="ap" delay={500} content={ <Ap />} />
             <Section id="schools" delay={200} content={<Schools/>}/>
             <Section id="mathnasium" delay={0} content={<Experience/>}/>
             <Section id="internships" delay={500} content={<Internships/>}/>
             <Section id="projects" delay={200} content={<Projects/>}/>
             <Section id="languages" delay={500} content={<Languages/>}/>
             <Section id="coding" delay={500} content={<Coding/>}/>
+            
+            
         </div>
     );
 }

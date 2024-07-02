@@ -62,6 +62,9 @@
   .flag {
     padding-right: 10vw;
   }
+  .flag img {
+    width:10vw;
+  }
   img {
     width: 30vw;
   }
@@ -86,7 +89,10 @@ a{
   color: inherit;
   font-style: italic;
 }
-
+h3{
+  font-size:1vw;
+  text-align:center;
+}
 .text{
   padding:5vw;
   text-align:center;

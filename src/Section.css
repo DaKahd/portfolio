@@ -2,7 +2,7 @@
   opacity: 0;
   /*transform: translateY(50px); /* Apply initial transform */
   transition: opacity 0.5s ease-out; /* Apply transition only to opacity */
-  padding-top: 10vh;
+  padding-top: 5vh;
 }
 
 .section.visible {
