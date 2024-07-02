@@ -76,6 +76,7 @@ export function Scholarships(){
 
 export default function Achievements(){
     return (<div style={{paddingTop:"10vh"}}>
+        <div id = "achievements"></div>
         <Section id="scores" delay={100} content={ <Scores />} />
         <Section id="academic" delay={1000} content={ <Academic />}/>
         <Section id="extracurricular" delay={500} content={ <Extracurricular />}/>

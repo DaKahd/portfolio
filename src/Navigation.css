@@ -1,0 +1,41 @@
+/* Main navbar container */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vw;
+    width: 100vw;
+    position: fixed;
+    background-color: black;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Links inside the navbar */
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 1vmin;
+    font-size: 2.5vw; /* Responsive font size */
+}
+
+.navbar h1 {
+    font-size: 3vw; /* Decrease font size for headings */
+}
+.navbar {
+    flex-direction: row;
+    height: auto;
+}
+/* Adjust font size and padding for mobile screens */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        height: auto;
+    }
+    .navbar h1 {
+        font-size: 5vw; /* Decrease font size for headings */
+    }
+   
+
+ 
+}

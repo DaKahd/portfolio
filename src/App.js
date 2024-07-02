@@ -12,8 +12,10 @@ function App() {
       <Header />
       <div className="App">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Achievements" element={<Achievements />}/>
+          <Route path="/" element={<div>
+            <Home />
+            <Achievements />
+          </div>} />
         </Routes>
       </div>
     </Router>
