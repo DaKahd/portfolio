@@ -20,7 +20,7 @@
 }
 
 .navbar h1 {
-    font-size: 3vw; /* Decrease font size for headings */
+    font-size: x-large; /* Decrease font size for headings */
 }
 .navbar {
     flex-direction: row;

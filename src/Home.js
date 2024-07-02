@@ -209,8 +209,8 @@ function Home() {
             }/>
             <Section id="profile" delay={600} content={
                 <div className="side-by-side">
-                    <h2 className = "intro">I am David Kahdian, a UCLA-bound Engineering student<br/><br/>Currently searching for tutoring and internship positions</h2>
-                    <img style={{height: '60vh', width:'auto'}} src={profile} alt="me"/>
+                    <h2 className = "intro" class="left">I am David Kahdian, a UCLA-bound Engineering student<br/><br/>Currently searching for tutoring and internship positions</h2>
+                    <img style={{height: '60vh', width:'auto'}} class="right" src={profile} alt="me"/>
                 </div>
             }/>
             <Section id="schools" delay={200} content={<Schools/>}/>
