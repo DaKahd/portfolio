@@ -9,8 +9,8 @@ export function Scores(){
     return (<div>
         <h1>Test Scores</h1>
         <div className="side-by-side">
-            <img src = {Acorn} alt="AP acorn" style={{maxWidth:"20vw"}}/>
-            <ul style={{marginLeft:"10vw"}}>
+            <img src = {Acorn} alt="AP acorn"/>
+            <ul>
                 <li>800: SAT Math</li>
                 <li>780: SAT English</li>
                 <br/>
@@ -32,13 +32,13 @@ export function Academic(){
     return (<div>
         <h1>Academic Awards</h1>
         <div className="side-by-side">
-            <ul style={{marginRight:"10vw"}}>
+            <ul className="left">
                 <li>Highest GPA</li>
                 <li>Summa Cum Laude</li>
                 <li>World Language Department Award: Spanish</li>
-                <li>Information and Communication Technology Pathway</li>
+                <li>Information and Communication Technology Pathway</li><br/>
             </ul>
-            <img src={Cap} alt="CVHS logo" style={{maxWidth:"20vw"}}/>
+            <img src={Cap} className="right" alt="CVHS logo" />
         </div>
     </div>);
 }
@@ -47,8 +47,8 @@ export function Extracurricular(){
     return (<div>
         <h1>Extracurricular Achievements</h1>
         <div className="side-by-side">
-            <img src={Coat} alt="CVHS logo" style={{maxWidth:"20vw"}}/>
-            <ul style={{marginLeft:"10vw"}}>
+            <img src={Coat} className="left"/>
+            <ul className="right">
                 <li>School Site Council</li>
                 <li>Speech and Debate: Captain, national qualifier</li>
                 <li>Mock Trial: Top 4 in Los Angeles County</li>
@@ -62,20 +62,20 @@ export function Scholarships(){
     return (<div>
         <h1>Scholarships</h1>
         <div className="side-by-side">
-            <ul>
+            <ul className="left">
                 <li>National Merit Scholarship: L3Harris Scholarship</li>
                 <li>Crescenta Valley High School PTSA Scholarship</li>
                 <li>Monte Vista Elementary PTA Scholarship</li>
                 <li>Committee for Armenian Students in Public Schools: Highest GPA</li>
-                
+                <br/>
             </ul>
-            <img src={Merit} alt="national merit logo" style={{maxWiddth:"20vw",paddingLeft:"10vw"}}/>
+            <img src={Merit} alt="national merit logo" />
         </div>
     </div>);
 }
 
 export default function Achievements(){
-    return (<div style={{paddingTop:"10vh"}}>
+    return (<div >
         <div id = "achievements"></div>
         <Section id="scores" delay={100} content={ <Scores />} />
         <Section id="academic" delay={1000} content={ <Academic />}/>

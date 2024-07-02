@@ -22,7 +22,7 @@ export function Experience() {
         <div>
             <h1>Work experience</h1>
             <div className="side-by-side">
-                <img src={Mathnasium} style={{height: '30vw'}} alt="Mathnasium"/>
+                <img src={Mathnasium} className = "left" alt="Mathnasium"/>
                 <div>
                     <h2>Instructor, Mathnasium</h2>
                     <h4>2023-2024</h4>
@@ -51,10 +51,10 @@ export function Internships() {
                         <li>Elements of design since implemented into practice</li>
                     </ul>
                 </div>
-                <img src={Bayha} style={{width: '30vw'}} alt="Bayha"/>
+                <img src={Bayha} className = "right" alt="Bayha"/>
             </div>
             <div className="side-by-side">
-                <img src={Crispr} style={{width: '30vw'}} alt="Crispr"/>
+                <img src={Crispr} className="left" alt="Crispr"/>
                 <div>
                     <h2>Lead intern</h2>
                     <h4>NextGen CRISPR project, Summer 2021</h4>
@@ -81,10 +81,10 @@ export function Schools() {
                         <li>Henry Samueli School of Engineering</li>
                     </ul>
                 </div>
-                <img src={Ucla} style={{height: '30vw'}} alt="UCLA"/>
+                <img src={Ucla} className = "right" alt="UCLA"/>
             </div>
             <div className="side-by-side">
-                <img src={Cv} style={{height: '30vw'}} alt="Crescenta Valley High School"/>
+                <img src={Cv} alt="Crescenta Valley High School"/>
                 <div>
                     <h2>Crescenta Valley High School</h2>
                     <h4>2020-2024</h4>
@@ -113,10 +113,10 @@ export function Projects() {
                         <li>User-friendly with <a href="https://kahdian.com/stopwatch/Stopwatch.html" target="_blank">documentation</a></li>
                     </ul>
                 </div>
-                <img src={Stopwatch} style={{width: '20vw'}} alt="Stopwatch"/>
+                <img src={Stopwatch} className="right" alt="Stopwatch"/>
             </div>
             <div className="side-by-side">
-                <img src={Cong} style={{width: '30vw'}} alt="Cong"/>
+                <img src={Cong} className="left" alt="Cong"/>
                 <div>
                     <h2><a href="https://www.youtube.com/watch?v=r0GZYcfbcwE" target="_blank">FactCheckSpeech</a></h2>
                     <ul>
@@ -159,19 +159,19 @@ export function Coding() {
             <div className="side-by-side">
                 <div style={{textAlign: 'center', padding: '2vw'}}>
                     <h2>HTML/CSS/JS</h2>
-                    <img src={HtmlJsCss} style={{height: '30vh'}} alt="HTML/CSS/JS"/>
+                    <img src={HtmlJsCss} style={{width: '30vh'}} alt="HTML/CSS/JS"/>
                 </div>
                 <div style={{textAlign: 'center', padding: '2vw'}}>
                     <h2>React</h2>
-                    <img src={ReactLogo} style={{height: '30vh'}} alt="React"/>
+                    <img src={ReactLogo} style={{width: '30vh'}} alt="React"/>
                 </div>
                 <div style={{textAlign: 'center', padding: '2vw'}}>
                     <h2>Java</h2>
-                    <img src={Java} style={{height: '30vh'}} alt="Java"/>
+                    <img src={Java} style={{width: '30vh'}} alt="Java"/>
                 </div>
                 <div style={{textAlign: 'center', padding: '2vw'}}>
                     <h2>Python</h2>
-                    <img src={Python} style={{height: '30vh'}} alt="Python"/>
+                    <img src={Python} style={{width: '30vh'}} alt="Python"/>
                 </div>
             </div>
         </div>
@@ -209,8 +209,8 @@ function Home() {
             }/>
             <Section id="profile" delay={600} content={
                 <div className="side-by-side">
-                    <h2 style={{maxWidth: '40vw'}}>I am David Kahdian, a UCLA-bound Engineering student<br/><br/>Currently searching for tutoring and internship positions</h2>
-                    <img style={{height: '60vh'}} src={profile} alt="me"/>
+                    <h2 className = "intro">I am David Kahdian, a UCLA-bound Engineering student<br/><br/>Currently searching for tutoring and internship positions</h2>
+                    <img style={{height: '60vh', width:'auto'}} src={profile} alt="me"/>
                 </div>
             }/>
             <Section id="schools" delay={200} content={<Schools/>}/>

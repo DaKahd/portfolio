@@ -7,31 +7,30 @@
   scroll-behavior: smooth;
 }
 
-section {
-  margin-top: 10vh;
-}
+
 
 .side-by-side {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 5vh;
   width: 100%;
+  margin-bottom: 10vh;
+
 }
-.side-by-side div {
-  margin-bottom: 10vi;
+
+.intro {
+    max-width: '40vw';
 }
-
-
-
 
 /* Media query for mobile devices */
 @media (max-width: 768px) {
   #main {
     text-align: center;
   }
-
+  .intro{
+    max-width: '80vw';
+  }
   .side-by-side {
       flex-direction: column;
       padding: 0;
@@ -39,7 +38,7 @@ section {
   }
 
   .side-by-side img {
-      width: 100%; /* Ensure images take full width on mobile */
+      width: 50vw; /* Ensure images take full width on mobile */
       height: auto;
       margin: 0; /* Remove margins on mobile */
   }
@@ -51,26 +50,37 @@ section {
   .flag h2 {
     text-align: center;
   }
+  h1{
+    font-size:large;
+  }
+  h2 {
+    font-size: 3vw;
+  }
 }
 
 @media (min-width: 768px) {
   .flag {
     padding-right: 10vw;
   }
+  img {
+    width: 30vw;
+  }
+  .right{
+    padding-left:5vw;
+  }
+  .left{
+    padding-right:5vw;
+  }
+  a {
+    text-decoration: none;
+    font-style: italic;
+    color: inherit;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
 }
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-a {
-  text-decoration: none;
-  font-style: italic;
+a{
   color: inherit;
-  pointer-events: all;
-}
-
-a:hover {
-  text-decoration: underline;
 }
