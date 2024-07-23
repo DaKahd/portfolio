@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import NumberCounter from './NumberCounter.js';
-import Profile from './images/profile.jpg';
+import Profile from './images/profile.png';
 
 export default function About(){
   

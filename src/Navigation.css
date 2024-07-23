@@ -1,46 +1,51 @@
 /* Navbar.css */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: #282c34;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #282c34;
+}
+
+.logo {
+  display: flex;
+  align-items: center; /* Align the logo vertically in the center */
+  height: 10vh;
+}
+
+.logoImg {
+  display: block; /* Ensure the image is displayed as a block element */
+  height: 10vh;
+  width: auto;
+}
+
+nav {
+  display: flex;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 1rem;
+}
+
+.nav-links a {
+  color: lightblue;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #21a1f1;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
   }
-  
-  .logo {
-    height:10vh;
-    color: lightblue;
-  }
-  .logoImg{
-    height:10vh;
-    width:auto;
-  }
-  nav {
-    display: flex;
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav-links li {
-    margin: 0 1rem;
-  }
-  
-  .nav-links a {
-    color: lightblue;
-    text-decoration: none;
-    transition: color 0.3s;
-  }
-  
-  .nav-links a:hover {
-    color: #21a1f1;
-  }
-  @media (max-width: 768px) {
-    .navbar {
-      display: none;
-    }
-  }
+}
