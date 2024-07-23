@@ -19,7 +19,6 @@ import Python from './images/python.png';
 import Physics from './images/physics.jpg';
 import Calculus from './images/calculus.png';
 import SAT from './images/SAT.png';
-import AP from './images/Ap.png';
 import Language from './images/language.png';
 import History from './images/history.jpg';
 import NumberCounter from './NumberCounter';

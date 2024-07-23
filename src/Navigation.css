@@ -1,41 +1,46 @@
-/* Main navbar container */
+/* Navbar.css */
 .navbar {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-around;
-    height: 10vw;
-    width: 100vw;
-    position: fixed;
-    background-color: black;
-    top: 0;
-    z-index: 1000;
-}
-
-/* Links inside the navbar */
-.nav-link {
-    color: white;
+    padding: 1rem 2rem;
+    background-color: #282c34;
+  }
+  
+  .logo {
+    height:10vh;
+    color: lightblue;
+  }
+  .logoImg{
+    height:10vh;
+    width:auto;
+  }
+  nav {
+    display: flex;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin: 0 1rem;
+  }
+  
+  .nav-links a {
+    color: lightblue;
     text-decoration: none;
-    padding: 1vmin;
-    font-size: 2.5vw; /* Responsive font size */
-}
-
-.navbar h1 {
-    font-size: x-large; /* Decrease font size for headings */
-}
-.navbar {
-    flex-direction: row;
-    height: auto;
-}
-/* Adjust font size and padding for mobile screens */
-@media (max-width: 768px) {
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #21a1f1;
+  }
+  @media (max-width: 768px) {
     .navbar {
-        flex-direction: row;
-        height: auto;
+      display: none;
     }
-    .navbar h1 {
-        font-size: 5vw; /* Decrease font size for headings */
-    }
-   
-
- 
-}
+  }

@@ -1,0 +1,118 @@
+.hero-container {
+    margin:1%;
+    position: relative;
+    display:flex;
+    align-items: center;
+    height:80vh;
+    overflow:hidden;
+    text-align:center;
+    max-height:500px;
+}
+
+.hero-image {
+    position: absolute;
+    height:100%;
+    object-fit:cover;
+}
+.wrapper{
+    background-size:contain;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-repeat:no-repeat;   
+    width:40vw;
+    height:22.5vw;
+}
+#translucent-box {
+    background-color: rgba(50, 50, 50, 0.7); /* Dark gray with 50% transparency */
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 15px; /* Optional: for rounded corners */
+    color: white; /* Ensure text is visible on dark background */
+    position: relative;
+    width:90%;
+    height:90%;
+}
+.translucent-box-content{
+    position: absolute;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+.translucent-box-content.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+h1{
+    font-size: 2.5vw; /* Responsive font size based on viewport width */
+    margin: 0;
+}
+a{
+    color:lightblue;
+}
+h2{
+    font-size: 1.5vw; /* Responsive font size based on viewport width */
+    margin: 0;
+}
+
+.ad{
+    padding:5%;
+}
+
+
+@media(min-width:851px){
+    .hero-container{
+        flex-direction:row;
+    }
+    .hero-image {
+        width:50%;
+        margin-top:5vh;
+        height:auto;
+    }
+    .hero-text{
+        position:absolute;
+        right:5%;
+        top:40%;
+        color:lightgray;
+    }
+
+}
+
+@media (max-width: 850px) {
+    .hero-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height:50vh;
+        max-height:600px;
+    }
+
+    .hero-image {
+        height: auto;
+        position: static;
+    }
+
+
+
+    .hero-text {
+        position: static;
+        margin-top: 20px;
+        color: lightblue;
+    }
+    .wrapper{
+        width:80vw;
+        height:45vw;
+    }
+
+    h1{
+        font-size: 5vw; /* Responsive font size based on viewport width */
+        margin: 0;
+    }
+    
+    h2{
+        font-size: 3vw; /* Responsive font size based on viewport width */
+        margin: 0;
+    }
+}

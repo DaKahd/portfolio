@@ -34,9 +34,9 @@ export function Contact(){
     return (
     <div className="text">   
         <h1>Contact</h1>
-        <p>I offer one free one-hour session per student. Contact me for pricing and availability.</p><br/><br/>
+        <p>I offer one free half-hour session per student. Contact me for pricing and availability.</p><br/><br/>
         <div id="form">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdkHsOVpSFanBj0lIFl7oWr-PRqLapgobrETbX_vWpAJwMgwQ/viewform?embedded=true" width="100%" height="1700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdkHsOVpSFanBj0lIFl7oWr-PRqLapgobrETbX_vWpAJwMgwQ/viewform?embedded=true" width="100%" height="1700" frameBorder="0">Loading…</iframe>
         </div>
         </div>
     )

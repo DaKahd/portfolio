@@ -5,12 +5,14 @@ import Home from './Home.js';
 import Tutoring from './Tutoring.js';
 import {Header} from './Navigation.js';
 import Achievements from './Achievements.js';
-
+import Hero from './Hero.js';
+import About from './About.js';
+import Contact from './Contact.js';
 
 function App() {
-  return (
+  /*return (
     <Router>
-      <Header />
+      
       <div className="App">
         <Routes>
           <Route path="/" element={<div>
@@ -21,7 +23,14 @@ function App() {
         </Routes>
       </div>
     </Router>
-  );
+  );*/
+  return (<div>
+    <Header/>
+    <Hero/>
+    <About/>
+    <Achievements />
+    <Contact />
+    </div>)
 }
 
 export default App;
