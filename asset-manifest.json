@@ -1,34 +1,38 @@
 {
   "files": {
-    "main.css": "/static/css/main.3743760e.css",
-    "main.js": "/static/js/main.793decec.js",
+    "main.css": "/static/css/main.069c276a.css",
+    "main.js": "/static/js/main.31e65c45.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/classroom.png": "/static/media/classroom.3f01d3b3ce84f999648d.png",
     "static/media/profile.jpg": "/static/media/profile.c22729f8f1ad49ef906b.jpg",
     "static/media/mathnasium.jpg": "/static/media/mathnasium.db4386b6e323b579a8bb.jpg",
+    "static/media/achievements-portrait.png": "/static/media/achievements-portrait.0bd33d0b09f442a6d798.png",
+    "static/media/achievements-landscape.png": "/static/media/achievements-landscape.26ede75b2ff9320b6add.png",
     "static/media/react.png": "/static/media/react.81ed438b18e24116794d.png",
     "static/media/python.png": "/static/media/python.dea924d737bb84eb9ce3.png",
+    "static/media/logo.png": "/static/media/logo.833c562ac2c92268c431.png",
     "static/media/calculus.png": "/static/media/calculus.c7cafd073fa32c7e7629.png",
     "static/media/htmljscss.png": "/static/media/htmljscss.6c082aa36fdec48b7065.png",
     "static/media/sp.jpg": "/static/media/sp.ecd000721af13a2f7e87.jpg",
     "static/media/cong.jpg": "/static/media/cong.0c172fd3e39876bb746e.jpg",
     "static/media/language.png": "/static/media/language.17ac147e7ceac314f1a1.png",
-    "static/media/nationalmerit.png": "/static/media/nationalmerit.fd20d98d97765cbd7b86.png",
     "static/media/cv.jpg": "/static/media/cv.2ff7b919b18f8742d46f.jpg",
     "static/media/usa.jpg": "/static/media/usa.699c2c6b0a4d5fdbac06.jpg",
     "static/media/history.jpg": "/static/media/history.3e202bced3df5dfda742.jpg",
-    "static/media/cap.jpg": "/static/media/cap.570bf78ff3b75aae4d63.jpg",
+    "static/media/email.png": "/static/media/email.b631423ab89082ba2cdc.png",
     "static/media/crispr.jpg": "/static/media/crispr.de3d2b21ddad6b095906.jpg",
     "static/media/physics.jpg": "/static/media/physics.de9f51070ff1e0ec5f56.jpg",
+    "static/media/phone.png": "/static/media/phone.a40c2be715452ecddb39.png",
     "static/media/ucla.jpg": "/static/media/ucla.c5dafff794a3f066dd93.jpg",
     "static/media/java.png": "/static/media/java.f5dd86c3ef6ef3f85acf.png",
-    "static/media/coatofarms.jpg": "/static/media/coatofarms.5746addcce9e07da7f32.jpg",
+    "static/media/linkedin.png": "/static/media/linkedin.b6fe5de3515687849a75.png",
     "index.html": "/index.html",
-    "main.3743760e.css.map": "/static/css/main.3743760e.css.map",
-    "main.793decec.js.map": "/static/js/main.793decec.js.map",
+    "main.069c276a.css.map": "/static/css/main.069c276a.css.map",
+    "main.31e65c45.js.map": "/static/js/main.31e65c45.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3743760e.css",
-    "static/js/main.793decec.js"
+    "static/css/main.069c276a.css",
+    "static/js/main.31e65c45.js"
   ]
 }
