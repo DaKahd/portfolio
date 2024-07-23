@@ -2,7 +2,7 @@
     width:80vw;
     margin-left:10vw;
     height:90vh;
-    margin-top:5vh;
+    margin-top:2vh;
 }
 .stats{
     width:80%;
@@ -18,8 +18,5 @@
 @media (max-width: 500px) {
     .stats-container{
         flex-direction:column;
-    }
-    .about-container{
-       margin-bottom:5vh;
     }
 }

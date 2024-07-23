@@ -11,7 +11,7 @@ export default function About(){
         <div className="stats-container">
             <div className="stats">
                 <p><NumberCounter targetNumber={1580} duration = {3} />/1600 SAT</p>
-                <p><NumberCounter targetNumber={1510} duration = {3} />/1520 SAT</p>
+                <p><NumberCounter targetNumber={1510} duration = {3} />/1520 PSAT</p>
                 <p><NumberCounter targetNumber={16} duration = {3} /> AP tests 5/5</p>
                 <p><NumberCounter targetNumber={2} duration = {1} /> years tutoring experience</p>
             </div>

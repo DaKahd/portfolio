@@ -5,10 +5,10 @@ import Linkedin from './images/linkedin.png';
 import './Contact.css';
 export default function Contact(){
     return (
-        <div>
-            <div className="text">
+        <div style={{textAlign:"center"}}>
+            <div>
                 <h1 id="book">Book an appointment</h1>
-                <p>I offer one free half-hour session per student. Contact me for pricing and availability.</p><br/><br/>
+                <h3><em>I offer one free half-hour evaluation per student!</em></h3><br/><br/>
                 <div id="form">
                     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdkHsOVpSFanBj0lIFl7oWr-PRqLapgobrETbX_vWpAJwMgwQ/viewform?embedded=true" title="google form" width="100%" height="1700" frameBorder="0">Loading…</iframe>
                 </div>

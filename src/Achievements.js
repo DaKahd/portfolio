@@ -20,6 +20,7 @@ export default function Achievements() {
         <div id="achievements" style={{ 
             width: '100%', 
             height: 'auto', 
+            marginBottom: '5%',
             display: 'flex', 
             justifyContent: 'center', 
             alignItems: 'center'
@@ -29,7 +30,6 @@ export default function Achievements() {
                 style={{ 
                     width: 'auto', 
                     height: '90vh',
-                    margin: '10%',
                     maxWidth: '80%',
                     maxHeight: '100vh',
                     objectFit:'contain'
